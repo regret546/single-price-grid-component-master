@@ -1,0 +1,27 @@
+.price {
+  display: grid;
+  background-color: var(--clr-light-gray);
+  margin-inline: 2rem;
+  border-radius: 0.3rem;
+  padding: 1.5rem 1.5rem;
+
+  &__info_top {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+
+    h1 {
+      font-size: 1.4rem;
+      color: var(--clr--cyan);
+      font-weight: var(--fw--700);
+    }
+
+    h2 {
+      font-size: 1rem;
+      color: var(--clr--bright-yellow);
+    }
+  }
+
+  &__info_bottom {
+  }
+}
