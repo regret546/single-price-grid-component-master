@@ -183,6 +183,9 @@ ul {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px 0px;
   cursor: pointer;
 }
+.price__info_bottom .bottom_subs .btn-subs:hover {
+  opacity: 0.8;
+}
 .price__info_bottom .bottom_info {
   display: grid;
   gap: 1rem;
@@ -198,6 +201,37 @@ ul {
   opacity: 0.7;
 }
 
+@media only screen and (min-width: 768px) {
+  .price {
+    max-width: 700px;
+  }
+  .price__info_top {
+    padding: 2.5rem;
+  }
+  .price__info_top h1 {
+    font-size: 2rem;
+    color: var(--clr--cyan);
+    font-weight: var(--fw--700);
+  }
+  .price__info_top h2 {
+    font-size: 1rem;
+    color: var(--clr--bright-yellow);
+  }
+  .price__info_top p {
+    font-size: 1.1rem;
+    opacity: 0.8rem;
+  }
+  .price__info_bottom {
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+  }
+  .price__info_bottom .bottom_subs {
+    padding: 2.5rem;
+  }
+  .price__info_bottom .bottom_info {
+    padding: 2.5rem;
+  }
+}
 .attribution {
   color: black;
 }/*# sourceMappingURL=style.css.map */
